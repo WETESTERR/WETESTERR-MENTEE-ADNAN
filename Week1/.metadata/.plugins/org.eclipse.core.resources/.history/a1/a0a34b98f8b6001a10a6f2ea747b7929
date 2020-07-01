@@ -1,0 +1,18 @@
+
+public class RulesofConstructor {
+	
+	void RulesofConstructor(){
+		/**Same as class name
+		 When constructor will be execute?
+		 Whenever we create an object, constructor will be executed automatically
+		 return type concept not applicable for constructor not even for void
+		**/ 
+		System.out.println("Hello");
+	}
+	
+	public static void main(String[]args) {
+		RulesofConstructor r1 = new RulesofConstructor();
+		RulesofConstructor r2 = new RulesofConstructor();
+		
+	}
+}

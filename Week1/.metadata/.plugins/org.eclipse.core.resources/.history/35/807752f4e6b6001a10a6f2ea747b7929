@@ -1,0 +1,8 @@
+
+public interface InerfaceExample {
+
+	final String flavor = "Beef";
+	
+	void openBag();
+
+}

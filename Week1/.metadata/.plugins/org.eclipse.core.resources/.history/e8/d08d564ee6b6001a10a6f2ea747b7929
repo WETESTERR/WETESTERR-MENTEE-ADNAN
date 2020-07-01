@@ -1,0 +1,17 @@
+
+public class Encapsulation {
+	
+	private String flavor;
+	
+	public void openBag() {
+		System.out.println("Bag is opened!");
+	}
+	
+	
+	public static void main(String[] args) {
+		Example1 e1 = new Example1();
+		e1.sayHi();
+	}
+
+
+}

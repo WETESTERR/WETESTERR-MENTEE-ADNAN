@@ -1,0 +1,20 @@
+
+public class ChildClass extends ParentClass {
+	
+	String s = "Child Variable";
+	
+	public void m1() {
+		System.out.println(s);// it will print child class
+		System.out.println(this.s);// it will print child class
+		System.out.println(super.s);// it will print parent class
+	}
+}
+	class Test {
+		public static void main(String[] args) {
+			ChildClass c = new ChildClass();
+			c.m1();	
+
+		}
+	}
+
+
